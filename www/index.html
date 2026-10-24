@@ -1166,6 +1166,8 @@ document.addEventListener('visibilitychange', () => {
   else if (AC) AC.resume();
 });
 start({});
+// Offline support for the web version only; the iOS app already ships its files
+if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
 </script>
 </body>
