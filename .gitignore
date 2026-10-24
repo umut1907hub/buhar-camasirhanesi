@@ -1,0 +1,15 @@
+node_modules/
+.claude/
+.DS_Store
+*.p8
+*.p12
+*.mobileprovision
+
+# Xcode
+ios/App/build/
+ios/App/DerivedData/
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/App/App/public/
+ios/App/App/capacitor.config.json
+ios/App/App/config.xml

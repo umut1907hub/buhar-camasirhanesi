@@ -1,0 +1,23 @@
+{
+  "appId": "com.buharcamasirhanesi.oyun",
+  "appName": "Buhar Çamaşırhanesi",
+  "webDir": "www",
+  "backgroundColor": "#f7dcc8",
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": false,
+    "backgroundColor": "#f7dcc8"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#f7dcc8",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "LIGHT",
+      "overlaysWebView": true
+    }
+  }
+}

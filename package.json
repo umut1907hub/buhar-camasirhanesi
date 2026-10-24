@@ -1,0 +1,24 @@
+{
+  "name": "buhar-camasirhanesi",
+  "version": "1.0.0",
+  "description": "Buhar Çamaşırhanesi - iOS ütü ve çamaşırhane oyunu",
+  "scripts": {
+    "assets": "node scripts/make-assets.mjs",
+    "sync": "npx cap sync ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "sharp": "^0.35.5"
+  }
+}

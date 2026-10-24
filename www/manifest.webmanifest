@@ -1,0 +1,14 @@
+{
+  "name": "Buhar Çamaşırhanesi",
+  "short_name": "Buhar",
+  "lang": "tr",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7dcc8",
+  "theme_color": "#fff7ef",
+  "icons": [
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
